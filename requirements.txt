@@ -1,0 +1,7 @@
+python-arango
+python-dotenv
+sentence-transformers
+numpy
+python-dateutil
+rich
+datasets
