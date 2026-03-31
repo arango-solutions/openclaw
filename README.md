@@ -1,4 +1,4 @@
-# OpenClaw x Arango — Digital Brain]
+# OpenClaw x Arango — Digital Brain
 
 ![OpenClaw and ArangoDB](assets/openclaw-arango.png)
 
@@ -8,7 +8,7 @@ Provides `memory_store`, `memory_search`, `memory_get`, and `memory_delete` tool
 
 ---
 
-## OpenClaw's Default Memorydoes
+## OpenClaw's Default Memory
 
 OpenClaw ships with a simple, file-oriented memory system:
 
@@ -32,7 +32,7 @@ An agent's memory isn't just text blobs.  It contains:
 
 All three are first-class concerns, not afterthoughts.  Any memory system that only handles one or two forces the application to manually bridge the gap.
 
-### The piecemeal approach creates integration tax
+### The piecemeal approach creates an integration tax
 
 The alternative to a multi-model database would be bolting systems together: SQLite for documents, a Neo4j plugin for the graph, and Pinecone or a vector extension for embeddings.  This creates real costs:
 
