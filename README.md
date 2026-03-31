@@ -8,7 +8,7 @@ Provides `memory_store`, `memory_search`, `memory_get`, and `memory_delete` tool
 
 ---
 
-## OpenClaw's Default Memory
+## OpenClaw's Default Memorydoes
 
 OpenClaw ships with a simple, file-oriented memory system:
 
