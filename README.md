@@ -1,4 +1,4 @@
-# OpenClaw x ArangoDB — Digital Brain]
+# OpenClaw x Arango — Digital Brain]
 
 ![OpenClaw and ArangoDB](assets/openclaw-arango.png)
 
@@ -20,7 +20,7 @@ This works for basic recall, but it's fundamentally a *flat* system.  Memories a
 
 ---
 
-## Why ArangoDB — The Unified Multi-Model Intuition
+## Why Arango — The Unified Multi-Model Intuition
 
 ### Agent memory is inherently multi-modal
 
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 ### Configure
 
-Copy the example environment file and fill in your ArangoDB credentials:
+Copy the example environment file and fill in your Arango credentials:
 
 ```bash
 cp .env.example .env
