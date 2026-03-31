@@ -1,4 +1,6 @@
-# OpenClaw x ArangoDB — Digital Brain
+# OpenClaw x ArangoDB — Digital Brain]
+
+![Uploading OpenClaw and Arango logo.png…]()
 
 A drop-in ArangoDB-backed memory layer for [OpenClaw](https://github.com/openclaw) agents, replacing the default SQLite + flat Markdown stack with a unified graph, vector, and document brain.
 
