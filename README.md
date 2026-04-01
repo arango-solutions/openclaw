@@ -86,8 +86,7 @@ that connect them:
 
 | Collection | Type | Role |
 |---|---|---|
-| `memories` | vertex | Stores atomic memory units—facts, events, conversations, notes, and decisions—each enriched with metadata and an inline 
-384-dimensional embedding vector for semantic retrieval|
+| `memories` | vertex | Stores atomic memory units—facts, events, conversations, notes, and decisions—each enriched with metadata and an inline 384-dimensional embedding vector for semantic retrieval|
 | `entities` | vertex | Represents extracted and normalized entities (e.g., people, organizations, concepts) that anchor memory to real-world context |
 | `sessions` | vertex | Captures session-level context, enabling grouping, filtering, and retrieval of memories within a conversational or task boundary|
 | `daily_logs` | vertex | Stores compacted summaries of memory over time, supporting temporal abstraction and long-term retention strategies|
