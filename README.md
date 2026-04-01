@@ -7,7 +7,7 @@ Replacing flat memory with a unified multi-model foundation for reasoning, not j
 
 ArangoDB is the core foundation of the Arango Contextual Data Platform—powering a unified memory layer for [OpenClaw](https://github.com/openclaw) agents that combines graph, vector, and document data, replacing fragmented approaches like SQLite and flat Markdown with a scalable, context-rich architecture.
 
-Arango enhances the native OpenClaw interface with memory_store, memory_search, memory_get, and memory_delete, while adding capabilities not available out of the box: a typed entity knowledge graph, multi-hop (BFS) graph traversal, session-linked conversation history, and optimized retrieval performance through features like in-memory index loading—enabling faster, context-aware agent reasoning at scale.
+Arango enhances the native OpenClaw interface with `memory_store`, `memory_search`, `memory_get`, and `memory_delete`, while adding capabilities not available out of the box: a typed entity knowledge graph, multi-hop (BFS) graph traversal, session-linked conversation history, and optimized retrieval performance through features like in-memory index loading—enabling faster, context-aware agent reasoning at scale.
 
 ---
 
