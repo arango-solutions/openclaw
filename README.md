@@ -1,7 +1,6 @@
 
 # The Missing Layer in OpenClaw Agent Architectures: Contextual Data
-
-Replacing flat memory with a unified multi-model foundation
+#### *Replacing flat memory with a unified multi-model foundation*
 
 ![OpenClaw and ArangoDB](assets/arango-openclaw-2.png)
 
