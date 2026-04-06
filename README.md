@@ -1,11 +1,11 @@
 
 # The Missing Layer in OpenClaw Agent Architectures: Contextual Data
 
-Replacing flat memory with a unified multi-model foundation for reasoning, not just retrieval
+Replacing flat memory with a unified multi-model foundation
 
-![OpenClaw and ArangoDB](assets/openclaw-arango.png)
+![OpenClaw and ArangoDB](assets/arango-openclaw-2.png)
 
-ArangoDB is the core foundation of the Arango Contextual Data Platform—powering a unified memory layer for [OpenClaw](https://github.com/openclaw) agents that combines graph, vector, and document data, replacing fragmented approaches like SQLite and flat Markdown with a scalable, context-rich architecture.
+ArangoDB serves as an upgrade to the memory layer of [OpenClaw](https://github.com/openclaw) agents—introducing a unified system that combines graph, vector, and document data, replacing fragmented approaches like SQLite and flat Markdown with a scalable, context-rich architecture.
 
 Arango enhances the native OpenClaw interface with `memory_store`, `memory_search`, `memory_get`, and `memory_delete`, while adding capabilities not available out of the box: a typed entity knowledge graph, multi-hop (BFS) graph traversal, session-linked conversation history, and optimized retrieval performance through features like in-memory index loading—enabling faster, context-aware agent reasoning at scale.
 
@@ -81,7 +81,7 @@ The analogy: it's the difference between a Swiss Army knife and carrying a separ
 ## Architecture
 
 This implementation models agent memory as a multi-model graph in ArangoDB, where documents, vectors, and relationships are unified in a single,
-queryable structure. The system is organized as a named graph (brain_graph) composed of six collections—separating core entities from the relationships
+queryable structure. The system is organized as a named graph (`brain_graph`) composed of six collections—separating core entities from the relationships
 that connect them:
 
 | Collection | Type | Role |
