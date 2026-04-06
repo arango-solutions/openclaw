@@ -3,8 +3,7 @@
 
 Replacing flat memory with a unified multi-model foundation
 
-![OpenClaw and ArangoDB](assets/openclaw-arango-2.png)
-
+![OpenClaw and ArangoDB](assets/arango-openclaw-2.png)
 
 ArangoDB serves as an upgrade to the memory layer of [OpenClaw](https://github.com/openclaw) agents—introducing a unified system that combines graph, vector, and document data, replacing fragmented approaches like SQLite and flat Markdown with a scalable, context-rich architecture.
 
